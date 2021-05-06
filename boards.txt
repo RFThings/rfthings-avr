@@ -5,8 +5,6 @@ menu.cpu=Processor
 ##############################################################
 
 lc01.name=RFThings LC-01
-lc01.vid.0=0x1A86
-lc01.pid.0=0x7523
 
 lc01.upload.tool=avrdude
 lc01.upload.protocol=arduino
@@ -31,8 +29,6 @@ lc01.build.f_cpu=8000000L
 ##############################################################
 
 uca.name=RFThings UCA
-uca.vid.0=0x1A86
-uca.pid.0=0x7523
 
 uca.upload.tool=avrdude
 uca.upload.protocol=arduino
@@ -53,3 +49,10 @@ uca.build.core=arduino
 uca.build.variant=uca
 uca.build.mcu=atmega328p
 uca.build.f_cpu=8000000L
+
+##############################################################
+
+dummy.name=RFThings AVR Boards
+dummy.hide=
+dummy.vid.0=0x1A86
+dummy.pid.0=0x7523
