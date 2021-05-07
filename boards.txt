@@ -1,6 +1,7 @@
 # See: http://code.google.com/p/arduino/wiki/Platforms
 
 menu.cpu=Processor
+menu.version=Board Version
 
 ##############################################################
 
@@ -18,7 +19,7 @@ lc01.bootloader.lock_bits=0x0F
 lc01.bootloader.low_fuses=0xFF
 lc01.bootloader.high_fuses=0xDA
 lc01.bootloader.extended_fuses=0xFD
-lc01.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+lc01.bootloader.file=optiboot/optiboot_atmega328.hex
 
 lc01.build.board=AVR_PRO
 lc01.build.core=arduino
@@ -42,7 +43,6 @@ uca.bootloader.lock_bits=0x0F
 uca.bootloader.low_fuses=0xFF
 uca.bootloader.high_fuses=0xDA
 uca.bootloader.extended_fuses=0xFD
-uca.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
 
 uca.build.board=AVR_PRO
 uca.build.core=arduino
@@ -50,9 +50,16 @@ uca.build.variant=uca
 uca.build.mcu=atmega328p
 uca.build.f_cpu=8000000L
 
+uca.menu.version.old=3.8 and older
+uca.menu.version.old.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+uca.menu.version.new=3.9 and newer
+uca.menu.version.new.bootloader.file=optiboot/optiboot_atmega328.hex
+
 ##############################################################
 
 dummy.name=RFThings AVR Boards
 dummy.hide=
 dummy.vid.0=0x1A86
 dummy.pid.0=0x7523
+dummy.build.board=AVR_PRO
