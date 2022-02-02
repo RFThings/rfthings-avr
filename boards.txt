@@ -5,30 +5,6 @@ menu.BOD=BOD
 
 ##############################################################
 
-lc01.name=RFThings LC-01
-
-lc01.upload.tool=avrdude
-lc01.upload.protocol=arduino
-lc01.upload.maximum_size=30720
-lc01.upload.maximum_data_size=2048
-lc01.upload.speed=57600
-
-lc01.bootloader.tool=avrdude
-lc01.bootloader.unlock_bits=0x3F
-lc01.bootloader.lock_bits=0x0F
-lc01.bootloader.low_fuses=0xFF
-lc01.bootloader.high_fuses=0xDA
-lc01.bootloader.extended_fuses=0xFD
-lc01.bootloader.file=optiboot/optiboot_atmega328.hex
-
-lc01.build.board=AVR_PRO
-lc01.build.core=arduino
-lc01.build.variant=lc01
-lc01.build.mcu=atmega328p
-lc01.build.f_cpu=8000000L
-
-##############################################################
-
 uca.name=RFThings UCA
 
 uca.upload.tool=avrdude
@@ -69,6 +45,30 @@ uca.menu.version.old.bootloader.cfd_bit=1
 # uca.menu.BOD.1v8.bootloader.extended_fuses=0b1111{bootloader.cfd_bit}110
 # uca.menu.BOD.disabled=BOD  disabled
 # uca.menu.BOD.disabled.bootloader.extended_fuses=0b1111{bootloader.cfd_bit}111
+
+##############################################################
+
+lc01.name=RFThings LC-01
+
+lc01.upload.tool=avrdude
+lc01.upload.protocol=arduino
+lc01.upload.maximum_size=30720
+lc01.upload.maximum_data_size=2048
+lc01.upload.speed=57600
+
+lc01.bootloader.tool=avrdude
+lc01.bootloader.unlock_bits=0x3F
+lc01.bootloader.lock_bits=0x0F
+lc01.bootloader.low_fuses=0xFF
+lc01.bootloader.high_fuses=0xDA
+lc01.bootloader.extended_fuses=0xFD
+lc01.bootloader.file=optiboot/optiboot_atmega328.hex
+
+lc01.build.board=AVR_PRO
+lc01.build.core=arduino
+lc01.build.variant=lc01
+lc01.build.mcu=atmega328p
+lc01.build.f_cpu=8000000L
 
 ##############################################################
 
