@@ -10,11 +10,14 @@
 ### Board Manager
 1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (at least version v1.8.13)
 2. Start the Arduino IDE
-3. Go into Preferences
-4. Add ```https://rfthings.com.vn/wp-content/uploads/package_rfthings-avr_index.json``` as an "Additional Board Manager URL"
-5. Open the Boards Manager from the Tools -> Board menu and install "<b>RFThings AVR Boards by RFThings Vietnam</b>"
+3. Go to **Preferences** *(CTRL + ,)*
+4. Copy & Add the following JSON URL to your **Additional Board Manager URL**
+```
+https://rfthings.com.vn/wp-content/uploads/package_rfthings-avr_index.json
+```
+5. Open the **Boards Manager** from the **Tools -> Board** menu and install "<b>RFThings AVR Boards by RFThings Vietnam</b>"
 ![RFThings AVR Boards by RFThings Vietnam](docs/images/BoardManager.png)
-6. Select your board from the Tools -> Board menu
+6. Select your board from the **Tools -> Board** menu
 ![Board menu](docs/images/Installation_Board_Selection.png)
 7. Start uploading your code!
 
