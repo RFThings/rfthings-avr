@@ -13,7 +13,7 @@
 3. Go to **Preferences** *(CTRL + ,)*
 4. Copy & Add the following JSON URL to your **Additional Board Manager URL**
 ```
-https://rfthings.com.vn/wp-content/uploads/package_rfthings-avr_index.json
+https://rfthings.github.io/ArduinoBoardManagerJSON/package_rfthings-avr_index.json
 ```
 5. Open the **Boards Manager** from the **Tools -> Board** menu and install "<b>RFThings AVR Boards by RFThings Vietnam</b>"
 ![RFThings AVR Boards by RFThings Vietnam](docs/images/BoardManager.png)
